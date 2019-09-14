@@ -1,0 +1,50 @@
+* {box-sizing: border-box;}
+html body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+#preview-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #333;
+}
+
+#preview {
+  width: 100%;
+}
+
+
+
+
+#status-area {
+  padding: 2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#status-area>* {
+  padding: 2px;
+  text-align: right;
+  color: #fff;
+}
+
+
+
+
+#control-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
